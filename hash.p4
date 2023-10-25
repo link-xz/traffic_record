@@ -1,3 +1,4 @@
+#include "types.p4"
 
 control HashFlowSetResubmit(inout hash_flow_metadata_t hash_flow_info, inout ingress_intrinsic_metadata_for_deparser_t ig_intr_md_for_dprsr) {    
     apply {
